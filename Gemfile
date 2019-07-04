@@ -30,12 +30,12 @@ gem 'bootsnap', '>= 1.1.0', require: false
 
 gem 'trailblazer-rails', '~> 1.0.2'
 gem "reform-rails", '~> 0.1.7'
-gem 'dry-validation', '~> 0.10.6'
+gem 'dry-validation', '<= 0.10.6'
+gem 'dry-types', '<= 0.10.2'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
-  gem 'rspec-rails'
 end
 
 group :development do

@@ -157,10 +157,6 @@ GEM
       declarative (< 0.1.0)
       declarative-option (< 0.2.0)
       uber (< 0.2.0)
-    rspec (3.8.0)
-      rspec-core (~> 3.8.0)
-      rspec-expectations (~> 3.8.0)
-      rspec-mocks (~> 3.8.0)
     rspec-core (3.8.2)
       rspec-support (~> 3.8.0)
     rspec-expectations (3.8.4)
@@ -168,6 +164,14 @@ GEM
       rspec-support (~> 3.8.0)
     rspec-mocks (3.8.1)
       diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.8.0)
+    rspec-rails (3.8.2)
+      actionpack (>= 3.0)
+      activesupport (>= 3.0)
+      railties (>= 3.0)
+      rspec-core (~> 3.8.0)
+      rspec-expectations (~> 3.8.0)
+      rspec-mocks (~> 3.8.0)
       rspec-support (~> 3.8.0)
     rspec-support (3.8.2)
     ruby_dep (1.5.0)
@@ -216,7 +220,7 @@ DEPENDENCIES
   puma (~> 3.11)
   rails (~> 5.2.3)
   reform-rails (~> 0.1.7)
-  rspec
+  rspec-rails
   spring
   spring-watcher-listen (~> 2.0.0)
   sqlite3
